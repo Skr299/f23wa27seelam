@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 
     value=Math.random()
 
-    res.write("Computes the values for Math.acosh(), math.log1p(), Math.tan() and Math.sqrt() function."+"\n")
+    res.write("Computes the values for Math.acosh(), math.log1p(), Math.tan() and Math.sqrt(--) function."+"\n")
 
     res.write('Math.acosh() applied to '+value+" is "+Math.acosh(value)+"\n");
 
